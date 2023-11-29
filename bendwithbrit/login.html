@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Login</title>
+</head>
+<body>
+    <style>
+        ul { 
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0px;
+        } 
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            background-color: black;
+            position: fixed;
+            top: 0px;
+        }
+        .header {
+            justify-content: center;
+            background-color: black;
+            text-align: center;
+        }
+        .login {
+            background-color: black;
+            color:white;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        #button {
+            background-color: gray;
+        }
+        a {
+            color: gray;
+        }
+ 
+    </style>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About</a></li>
+                    <li class="nav-item"><a href="events.html">Events</a></li>
+                    <li class="nav-item"><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="header">
+        <img src="static/BendWithBritLogo.jpg" alt="Glittery Bend With Brit logo" height="250" width="300">
+    </div>
+    <div class="login">
+        <div id="box">
+            <h1 id="header">Log In to Schedule</h1>
+            <form action="signin" id="form">
+                <label for="email">Email(phone or mobile accounts)</label><br>
+                <input type="text" id="textbox"><br><br>
+                <label for="password">Password</label>
+                <a href="#" id="forgot">Forgot Password</a><br>
+                <input type="text" id="textbox"><br><br>
+                <button id="button">Continue</button><br><br>
+                <a href="#">Need Help?</a>
+            </form>  
+    <h4>New To Bend With Brit?</h4>
+    <button id="button">Create An Account</button><br><br> 
+    </div>
+    <div class="footer">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Help</a>
+        &copy 2018-2023
+        </div>
+    </div>
+
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
